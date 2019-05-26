@@ -1,0 +1,19 @@
+{
+  "name": "zazu-docs-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaleocheng/zazu-docs-search.git"
+  },
+  "author": "Kaleo Cheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaleocheng/zazu-docs-search/issues"
+  },
+  "homepage": "https://github.com/kaleocheng/zazu-docs-search#readme"
+}
