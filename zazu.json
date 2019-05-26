@@ -1,0 +1,27 @@
+{
+    "name": "zazu-docs-search",
+    "version": "1.0.0",
+    "description": "Zazu plugin that search docs using ag.",
+    "blocks": {
+        "input": [
+            {
+                "id": "docs-search",
+                "type": "PrefixScript",
+                "prefix": "ds",
+                "space": true,
+                "args": "Required",
+                "script": "index.js",
+                "connections": [
+                    "SearchDocs"
+                ]
+            }
+        ],
+        "output": [
+            {
+                "id": "SearchDocs",
+                "type": "OpenFile",
+                "file": "{value}"
+            }
+        ]
+    }
+}
